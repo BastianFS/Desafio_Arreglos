@@ -1,29 +1,24 @@
 *{
     margin: 0;
-    border 0;
+    border: 0;
 }
-.Navbar{
-    padding: 30px;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    background-color: lightblue;
+
+.card {
+    height: 100px;
 }
-.NavItems{
-    padding-left: 30px;
+
+.card img{
+    height: 250px;
 }
-.LinkNone{
-    text-decoration: none;
-    padding: 20px;
-    color: black;
-}
-.NavbarName{
-    font-size: 22px;
-}
-.ImgNav{
-    width: 100%;
-    height: 400px;
-    background-image: url(../img/Edificio.jpg);
-    background-size: cover;
+
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
     background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
 }
