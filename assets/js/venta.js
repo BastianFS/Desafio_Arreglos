@@ -16,6 +16,36 @@ const propiedadesVenta = [
         estacionamiento: false
     },
     {
+        nombre: 'Importante edificio historico reacondicionado',
+        src: 'https://miro.medium.com/v2/resize:fit:1400/1*JlI8qrngK20kt-254IV4EQ.jpeg',
+        descripcion: 'Este historico edificio ofrece una vista unica en el mundo',
+        ubicacion: '554 Meryl Avenue, Streep City, NY 87789',
+        habitaciones: 5,
+        baños: 3,
+        costo: "8.500",
+        smoke: false,
+        pets: false,
+        metrostotales: '200 m2',
+        metrosutiles:'200 m2',
+        equipamiento: 'ascensor',        
+        estacionamiento: false
+    },
+    {
+        nombre: 'Apartamento de lujo en zona industrial',
+        src: ' https://www.cpointproperties.com/wp-content/uploads/denver-tower.jpg',
+        descripcion: 'Este apartamento de lujo está situado en un sector industrial, haciendolo mas asequible',
+        ubicacion: ' 34 Dangerous Street, Bad Part of Town, ST 200956',
+        habitaciones: 4,
+        baños: 2,
+        costo: "3.000",
+        smoke: true,
+        pets: true,
+        metrostotales: '170 m2',
+        metrosutiles:'150 m2',
+        equipamiento: 'seguridad 24/7, torreta de vigilancia',        
+        estacionamiento: true
+    },
+    {
         nombre: 'Apartamento Geometrico en zona residencial',
         src: 'https://r2.starryai.com/results/969243123/1a80a7d7-4a9e-4092-8100-9b5695575878.webp',
         descripcion: 'Este apartamento rupturista está situado en un terreno perfectamente plano',

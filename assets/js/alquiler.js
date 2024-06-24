@@ -127,9 +127,10 @@ for (let propiedadAlquiler of propiedadesAlquiler) {
             <p class="card-text">
                 ${propiedadAlquiler["descripcion"]}  
                  <ul> 
-                <li>Metros totales: ${propiedadVenta["metrostotales"]}
-                <li>Metros utiles: ${propiedadVenta["metrosutiles"]}
-                <li>Equipamiento: ${propiedadVenta["equipamiento"]}
+                <li>Metros totales: ${propiedadVenta["metrostotales"]}</li>
+                <li>Metros utiles: ${propiedadVenta["metrosutiles"]}</li>
+                <li>Equipamiento: ${propiedadVenta["equipamiento"]}</li>
+                </ul>
             </p>
             
             <p>
