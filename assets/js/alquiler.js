@@ -1,3 +1,5 @@
+
+/*Arreglo propiedades en alquiler*/
 const propiedadesAlquiler = [
   {
     nombre: "Apartamento en el centro de la ciudad",
@@ -112,7 +114,7 @@ const propiedadesAlquiler = [
     estacionamiento: true,
   },
 ]
-
+/*Ciclo para crear Cards*/
 const cardAlquiler = document.getElementById("container-alquiler");
 let cardTemplate= "";
 for (let propiedadAlquiler of propiedadesAlquiler) {
@@ -143,7 +145,7 @@ for (let propiedadAlquiler of propiedadesAlquiler) {
             <p>
                 <i class="fas fa-dollar-sign">${propiedadAlquiler["costo"]}</i>
             </p>`;
-
+/*Condicionales*/
   if (propiedadAlquiler["smoke"]) {
     cardTemplate += `<p class="text-success">
         <i class="fas fa-smoking"></i> Permitido fumar

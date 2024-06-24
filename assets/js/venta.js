@@ -1,3 +1,4 @@
+/*Arreglo propiedas en venta */
 const propiedadesVenta = [
    
     {
@@ -106,6 +107,7 @@ const propiedadesVenta = [
         estacionamiento: true
     },
 ]
+/*Ciclo para crear Cards*/
 const cardVenta = document.getElementById("container-venta");
 let cardTemplate= "";
 for (let propiedadVenta of propiedadesVenta) {
@@ -136,7 +138,7 @@ for (let propiedadVenta of propiedadesVenta) {
             <p>
                 <i class="fas fa-dollar-sign">${propiedadVenta["costo"]}</i>
             </p>`;
-
+/*Condicionales*/
   if (propiedadVenta["smoke"]) {
     cardTemplate += `<p class="text-success">
         <i class="fas fa-smoking"></i> Permitido fumar
