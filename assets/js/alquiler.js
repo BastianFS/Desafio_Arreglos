@@ -111,7 +111,7 @@ const propiedadesAlquiler = [
     equipamiento: "porteria, seguridad 24/7",
     estacionamiento: true,
   },
-];
+]
 
 const cardAlquiler = document.getElementById("container-alquiler");
 let cardTemplate= "";
@@ -127,9 +127,9 @@ for (let propiedadAlquiler of propiedadesAlquiler) {
             <p class="card-text">
                 ${propiedadAlquiler["descripcion"]}  
                  <ul> 
-                <li>Metros totales: ${propiedadVenta["metrostotales"]}</li>
-                <li>Metros utiles: ${propiedadVenta["metrosutiles"]}</li>
-                <li>Equipamiento: ${propiedadVenta["equipamiento"]}</li>
+                <li>Metros totales: ${propiedadAlquiler["metrostotales"]}</li>
+                <li>Metros utiles: ${propiedadAlquiler["metrosutiles"]}</li>
+                <li>Equipamiento: ${propiedadAlquiler["equipamiento"]}</li>
                 </ul>
             </p>
             
